@@ -1,0 +1,26 @@
+# UG Jobs East Africa — prototype
+
+## Run it
+Open `index.html` in a modern browser. It is a responsive, client-side prototype.
+
+## Included
+- Search and filter approved vacancies
+- Employer registration form
+- Job submission with admin approval
+- Job application form with optional CV upload (PDF/DOC/DOCX, max 3MB)
+- Demo admin panel (PIN: `2468`)
+- Mark approved vacancies as featured
+- Local browser storage
+
+## Important limitations
+This is a prototype, not a secure production recruitment platform. Data is stored in the visitor's browser using localStorage. It is not shared between devices or users, and applications/CVs are not transmitted to employers. The demo admin PIN is visible in the source and is not secure. Do not collect real applicants' personal information or CVs using this prototype.
+
+## To launch publicly for free as a demo
+1. Create a GitHub account and a new public repository named `ug-jobs-east-africa`.
+2. Upload `index.html` from this folder.
+3. In the repository, open Settings → Pages.
+4. Under Build and deployment, choose Deploy from a branch, select `main` and `/ (root)`, then Save.
+5. GitHub Pages will provide a public URL.
+
+## Before accepting real applications
+Add a secure backend/database, employer and admin authentication, server-side file storage with access controls, email notifications, spam protection, privacy policy and terms. Verify employers and vacancies. Never charge job seekers to apply. Consider a Uganda-focused data protection review before collecting CVs.
